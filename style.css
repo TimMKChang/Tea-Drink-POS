@@ -8,7 +8,7 @@ body {
 .iPad {
   width: 1186px;
   height: 856px;
-  background-image: url("/icon/IPad_Pro_Mockup.png");
+  background-image: url("https://github.com/TimMKChang/Tea-Drink-POS/blob/master/icon/IPad_Pro_Mockup.png");
   background-size: contain;
   background-repeat: no-repeat;
   display: flex;
@@ -213,7 +213,7 @@ body {
   height: 150px;
   border-radius: 5px;
   background-color: #E0E0E0;
-  background-image: url("/icon/Fresh_Tea_icon.png");
+  background-image: url("https://github.com/TimMKChang/Tea-Drink-POS/blob/master/icon/Fresh_Tea_icon.png");
   background-size: contain;
   display: flex;
   flex-direction: column;

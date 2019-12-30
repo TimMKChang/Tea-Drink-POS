@@ -21,10 +21,10 @@ class TeaDrinkPos {
     // background image
     document.querySelectorAll(".menu-item-img").forEach(function (menuItemImg) {
       const categoryBackgroundImgURL = {
-        "Fresh Tea": "/icon/Fresh_Tea_icon.png",
-        "Milk Tea": "/icon/Milk_Tea_icon.png",
-        "Fresh Juice": "/icon/Fresh_Juice_icon.png",
-        "Hot Drinks": "/icon/Hot_Drinks_icon.png",
+        "Fresh Tea": "https://github.com/TimMKChang/Tea-Drink-POS/blob/master/icon/Fresh_Tea_icon.png",
+        "Milk Tea": "https://github.com/TimMKChang/Tea-Drink-POS/blob/master/icon/Milk_Tea_icon.png",
+        "Fresh Juice": "https://github.com/TimMKChang/Tea-Drink-POS/blob/master/icon/Fresh_Juice_icon.png",
+        "Hot Drinks": "https://github.com/TimMKChang/Tea-Drink-POS/blob/master/icon/Hot_Drinks_icon.png",
       };
       menuItemImg.style.backgroundImage = `url("${categoryBackgroundImgURL[category]}")`;
     });
