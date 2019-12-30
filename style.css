@@ -1,0 +1,330 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.iPad {
+  width: 1186px;
+  height: 856px;
+  background-image: url("/icon/IPad_Pro_Mockup.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.POS {
+  width: 1024px;
+  height: 768px;
+  background-color: #000000;
+  padding: 25px 5px 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.order-info {
+  width: 30%;
+  height: 100%;
+}
+
+.table-number {
+  width: 100%;
+  height: 10%;
+  background-color: #FF7575;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #5B5B5B;
+}
+
+.table-number .title {
+  width: 60%;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.table-number .btn {
+  width: 30%;
+  font-size: 30px;
+  padding: 2px;
+}
+
+.total-amount {
+  width: 100%;
+  height: 5%;
+  background-color: #FF7575;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.total-amount .title {
+  width: 60%;  
+  font-size: 23px;
+  font-weight: bolder;
+}
+
+.total-amount .value {
+  width: 30%;
+  font-size: 20px;
+  font-weight: bolder;
+  background-color: #FF9797;
+  border-radius: 5px;
+}
+
+.order-list {
+  width: 100%;
+  height: 65%;
+  background-color: #FFB5B5;
+  overflow-y: auto;
+}
+
+.order-item {
+  width: 100%;
+  height: 20%;
+  border-bottom: 1px solid #8E8E8E;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: #FFB5B5;
+}
+
+.order-item .item-content {
+  width: 75%;
+}
+
+.order-item .item-name {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.order-item .item-special {
+  font-size: 15px;
+  color: #4F4F4F;
+}
+
+.quantity-price-container {
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.order-item .item-quantity {
+  font-size: 40px;
+  line-height: 40px;
+  color: #4F4F4F;
+}
+
+.order-item .item-price {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 18px;
+  color: #4F4F4F;
+  padding-left: 15%;
+}
+
+.recycle-bin {
+  width: 100%;
+  height: 10%;
+  background-color: #FF7575;
+  border-bottom: 1px solid #5B5B5B;
+}
+
+.recycle-bin .fa-trash-alt {
+  width: 100%;
+  height: 100%;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+.checkout {
+  width: 100%;
+  height: 10%;
+  background-color: #FF7575;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.checkout .btn {
+  width: 90%;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+
+
+
+
+.menu {
+  width: 70%;
+  height: 100%;
+}
+
+.navbar {
+  height: 10%;
+  border-bottom: 1px solid #000000;
+}
+
+#navbarNav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar li {
+  font-size: 25px;
+  margin: 0 10px;
+}
+
+.menu-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 30px;
+}
+
+.menu-item {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.menu-item-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+  background-color: #E0E0E0;
+  background-image: url("/icon/Fresh_Tea_icon.png");
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+
+.menu-item .item-price {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #FFFFFF;
+  font-size: 25px;
+  line-height: 25px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 5px;
+}
+
+.menu-item .item-name {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #FFFFFF;
+  font-size: 25px;
+  line-height: 25px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+}
+
+/* modal */
+
+/* table number */
+#table-number-modal .value {
+  display: inline-block;
+  text-align: center;
+  height: 42px;
+  width: 100px;
+  background-color: #FF9797;
+  border-radius: 5px;
+}
+
+/* drink special */
+.modal-content {
+  background-color: #FFB5B5;
+  border: 5px solid rgba(0, 0, 0, 0.7);  
+  top: 140px;
+  left: 50px;
+}
+
+.ice label, .sugar label, .extra label {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.modal .ice, .modal .sugar, .modal .extra {
+  position: relative;
+}
+
+.prohibit-cover-on {
+  /* display: none; */
+  width: 105%;
+  height: 105%;
+  left: -2.5%;
+  top: 2.5%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  z-index: 9999;
+  cursor: not-allowed;
+}
+
+.quantity .value {
+  display: inline-block;
+  text-align: center;
+  width: 50px;
+  background-color: #FF9797;
+  border-radius: 5px;
+}
+
+.number-keyboard {
+  width: 50%;
+  margin: 0!important;
+}
+
+.number-keyboard .btn {
+  background-color: rgba(0, 0, 0, 0);
+  color: #4F4F4F;
+  font-size: 20px;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.number-keyboard .btn:hover {
+  background-color: #8E8E8E;
+  color: #FFFFFF;
+}
+
+.number-keyboard .btn:focus {
+  background-color: #8E8E8E;
+  color: #FFFFFF;
+}
+
+
+
+
+
+
+.just-kidding {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: absolute;
+  right: 20px;
+}
